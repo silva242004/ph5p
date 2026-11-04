@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Vista previa H5P</title>
+<style>body{margin:0;padding:16px;font-family:sans-serif;background:#f3f6fc}#h5p{max-width:1100px;margin:auto}</style>
+</head><body>
+<div id="h5p"></div>
+<script src="https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.0/dist/main.bundle.js"></script>
+<script>
+const dir = new URLSearchParams(location.search).get('h') || 'salida/plantilla';
+new H5PStandalone.H5P(document.getElementById('h5p'), {
+  h5pJsonPath: '/' + dir,
+  frameJs: 'https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.0/dist/frame.bundle.js',
+  frameCss: 'https://cdn.jsdelivr.net/npm/h5p-standalone@3.8.0/dist/styles/h5p.css',
+  frame: false
+}).then(()=>console.log('H5P listo')).catch(e=>console.error('H5P error',e));
+</script></body></html>

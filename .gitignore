@@ -1,0 +1,14 @@
+# Generado al construir / publicar
+trabajo/
+__pycache__/
+*.pyc
+
+# Configuración y credenciales de cada equipo
+ph5p.local.json
+CREDENCIALES*
+
+# Cursos: PRIVADOS por defecto. Solo se versiona el curso de ejemplo.
+# Cada persona crea los suyos en cursos/<nombre>/ y quedan solo en su equipo.
+cursos/*
+!cursos/README.md
+!cursos/ejemplo/

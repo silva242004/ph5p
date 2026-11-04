@@ -1,0 +1,57 @@
+{
+ "nombre": "Plantilla h5p Institucional / Facultad de Ingeniería y Ciencias Básicas (UAO)",
+ "descripcion": "Versión 6-215, descargada con el botón Descargar de la actividad id=366 del Moodle de la Digitatón (digitaton.uao.edu.co). Es la plantilla limpia; la 6-19 (id=146) ya tiene texto de una actividad.",
+ "moodle_produccion": {
+  "version": "4.5.14 o posterior",
+  "plugin": "mod_hvp 1.28.3 (2026081300), H5P Core 1.13",
+  "course_presentation": "1.27",
+  "tema": "maker",
+  "hub_h5p": true
+ },
+ "colores": {
+  "texto": "hsl(0,0%,0%)",
+  "texto_sobre_color": "hsl(0, 0%, 100%)",
+  "acento": "hsl( 200, 100%, 45% )",
+  "principal": "hsl( 350, 75%, 31% )",
+  "fondo_suave": "rgb(224, 243, 250)",
+  "pendiente": "#FE9800"
+ },
+ "colores_hex": {
+  "acento": "#0099E6 (azul de la facultad: segunda palabra de los títulos)",
+  "principal": "#8A1428 (granate institucional)",
+  "fondo_suave": "#E0F3FA (recuadros destacados)",
+  "boton": "#1D5CFF (botón Referencias)",
+  "granate_secundario": "#AC0B32 (uso puntual)"
+ },
+ "tamanos": {
+  "cuerpo": "0.875em",
+  "destacado": "1em",
+  "subtitulo": "1.125em",
+  "titulo": "1.25em a 1.375em",
+  "titulo_grande": "2.25em"
+ },
+ "reglas": [
+  "Conserva la estructura general, distribución de elementos y uso del color institucional (slide 3 de la plantilla).",
+  "Personaliza los contenidos textuales y recursos pedagógicos de acuerdo con los objetivos de la asignatura (slide 3).",
+  "La página ¿Cómo navegar? (slide 1) solo va en la Actividad 0 (slide 3).",
+  "Portada: etiqueta blanca de 1.625em y debajo el título en h2 blanco de 1.5em (slide 2).",
+  "Se pueden mover, redimensionar y crear elementos siguiendo el formato."
+ ],
+ "disenos": {
+  "1": "Guía ¿Cómo navegar? (imagen completa). Solo en la Actividad 0.",
+  "2": "Portada: etiqueta + título sobre granate, foto a la derecha, flecha 'siguiente'.",
+  "4": "Imagen a la izquierda, subtítulo, texto y recuadro destacado a la derecha.",
+  "6": "Cuatro tarjetas numeradas (rutas de 4 pasos).",
+  "7": "Imagen enmarcada a la izquierda, título y texto a la derecha.",
+  "9": "Paso N: panel con etiqueta, título y texto; imagen grande a la derecha.",
+  "14": "Panel de color a la izquierda con título; texto y lista a la derecha.",
+  "17": "Título resaltado, texto, recuadro destacado e imagen a la derecha.",
+  "19": "Título grande, texto, recuadro destacado; imagen a toda altura a la derecha.",
+  "25": "Analiza y responde: texto + SingleChoiceSet.",
+  "26": "Arrastrar las palabras (DragText).",
+  "27": "Verdadero o falso.",
+  "30": "Video interactivo.",
+  "31": "Cierre: 'Has finalizado esta actividad' con foto.",
+  "32": "Referencias bibliográficas en dos columnas."
+ }
+}

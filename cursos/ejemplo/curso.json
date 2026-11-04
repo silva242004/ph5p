@@ -1,0 +1,28 @@
+{
+ "nombre": "ejemplo",
+ "descripcion": "Curso mínimo para aprender el flujo y como base de 'ph5p.py curso nuevo'.",
+ "plantilla": "fiuao-6-215",
+ "actividades": [
+  {"id": "bienvenida", "script": "actividades/bienvenida.py", "nombre_moodle": "Actividad de ejemplo", "seccion": 1}
+ ],
+ "libros": [],
+ "moodle": {
+  "shortname": "EJEMPLO",
+  "nombre": "Curso de ejemplo ph5p",
+  "renombrar_avisos": "Anuncios",
+  "secciones": [
+   {"numero": 0, "nombre": "General", "resumen": [
+     {"titulo_curso": "CURSO DE EJEMPLO"},
+     {"caja": [{"titulo": "Información general"}, {"datos": [["2", "semanas"], ["1", "módulo"]]}]}]},
+   {"numero": 1, "nombre": "Módulo 1: Primeros pasos", "resumen": [
+     {"caja": [{"pendiente": "descripción del módulo (la escribe el profesor)."}]}]}
+  ],
+  "recursos": [
+   {"tipo": "forum", "seccion": 0, "nombre": "Foro de dudas", "opciones": {"type": "general"},
+    "intro": [{"parrafos": ["Pregunta aquí lo que necesites."]}]}
+  ],
+  "eliminar": [],
+  "mover": [],
+  "orden": {"1": ["Actividad de ejemplo"]}
+ }
+}
